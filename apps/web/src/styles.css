@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  background: #101114;
+  color: #ececef;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #101114;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.card-just-moved {
+  animation: card-move 180ms ease;
+}
+
+@keyframes card-move {
+  from {
+    transform: translateY(8px);
+    opacity: 0.45;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+kbd {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  border: 1px solid #3a3a42;
+  border-radius: 4px;
+  padding: 0 4px;
+  color: #b7b7c2;
+}

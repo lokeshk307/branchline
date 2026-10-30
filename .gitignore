@@ -1,0 +1,15 @@
+.venv/
+.packages/
+__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+*.pyc
+.db
+*.sqlite
+apps/api/branchline.db
+apps/api/.venv/
+apps/web/node_modules/
+apps/web/dist/
+.DS_Store
+.env
+.idea/
